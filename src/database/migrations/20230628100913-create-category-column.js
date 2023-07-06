@@ -8,6 +8,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.removeColumn('categoies', 'path')
+    await queryInterface.removeColumn('categories', 'path')
   },
 }
